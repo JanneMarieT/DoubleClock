@@ -1,0 +1,210 @@
+/*clock design*/
+#clock {
+    display: flex;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+
+}
+
+.digital-clock {
+    position: relative;
+    width: 400px;
+    padding: 10px 10px;
+    height: 30px;
+    background: #0E8EA8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black;
+}
+
+.time {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hours,
+.dots,
+.minutes,
+.seconds,
+.day-name,
+.day-number,
+.month-name,
+.year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px;
+    line-height: 30px;
+
+    font-size: 30px;
+    color: #fff;
+    font-family: consolas;
+}
+
+/*-----------------*/
+
+.clock {
+    background: #ececec;
+    width: 150px;
+    height: 150px;
+    margin: 8% auto 0;
+    border-radius: 50%;
+    border: 14px solid#0E8EA8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ccc;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 2px 4px -1px black;
+}
+
+
+.hour-hand {
+    position: absolute;
+    z-index: 5;
+    width: 2px;
+    height: 32.5px;
+    background: #333;
+    top: 40px;
+    transform-origin: 50% 36px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+.minute-hand {
+    position: absolute;
+    z-index: 6;
+    width: 2px;
+    height: 50px;
+    background: #666;
+    top: 27px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 25% 50px;
+}
+
+
+.second-hand {
+    position: absolute;
+    z-index: 7;
+    width: 1px;
+    height: 60px;
+    background: gold;
+    top: 14px;
+    lefT: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 25% 60px;
+}
+
+
+#viser {
+    display: inline-block;
+    position: absolute;
+    color: #333;
+    font-size: 22px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+    z-index: 4;
+}
+
+
+.h12 {
+    top: 15px;
+    left: 50%;
+    margin-left: -9px;
+}
+
+.h3 {
+    top: 60px;
+    right: 30px;
+}
+
+.h6 {
+    bottom: 15px;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.h9 {
+    left: 32px;
+    top: 60px;
+}
+
+.diallines {
+    position: absolute;
+    z-index: 2;
+    width: 1px;
+    height: 7px;
+    background: #666;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 25% 75px;
+}
+
+.diallines:nth-of-type(5n) {
+    position: absolute;
+    z-index: 2;
+    width: 2px;
+    height: 12px;
+    background: #666;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 25% 75px;
+}
+
+.info {
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    border-radius: 7px;
+    background: #ccc;
+    text-align: center;
+    line-height: 10px;
+    color: #000;
+    font-size: 11px;
+    top: 100px;
+    left: 25%;
+    margin-left: 0px;
+    font-family: "Poiret One";
+    font-weight: 700;
+    z-index: 3;
+    letter-spacing: 2px;
+    margin-left: 0px;
+    left: 25%;
+}
+
+.date {
+    top: 40px;
+}
+
+.day {
+    top: 100px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock Design | Width 12-hour/24-hour format Switcher - Html, Css & Javascript</title>
+    <link rel="stylesheet" href="merge.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+
+    <!---analoge clock-->
+    <section style="display: none" id="hello" class="clock_1">
+
+        <div class="clock">
+            <div>
+                <div class="info date"></div>
+                <div class="info day"></div>
+            </div>
+            <div class="dot"></div>
+            <div>
+                <div class="hour-hand"></div>
+                <div class="minute-hand"></div>
+                <div class="second-hand"></div>
+            </div>
+            <div>
+                <span id="viser" class="h3">3</span>
+                <span id="viser" class="h6">6</span>
+                <span id="viser" class="h9">9</span>
+                <span id="viser" class="h12">12</span>
+            </div>
+            <div class="diallines"></div>
+        </div>
+    </section>
+    <!--digital clock-->
+    <section id="hello" class="clock_2">
+        <div id="clock">
+            <div class="digital-clock">
+                <div class="time">
+                    <span class="hours">00</span>
+                    <span class="dots">:</span>
+                    <span class="minutes">00</span>
+                    <span class="dots">:</span>
+                    <span class="seconds">00</span>
+                    <span class="day-name">Day</span>
+                    <span class="day-number">00</span>
+                    <span class="month-name">Month</span>
+                    <span class="year">0000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="merge.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</body>
+
+</html>
