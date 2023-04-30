@@ -24,7 +24,7 @@ To this:
     * [Icon](href="https://unicons.iconscout.com/release/v4.0.0/css/line.css")
 
 * jQuery JavaScript external Library v3.5.0 
-    * this is an external library in the project - and is linked in the html("https://code.jquery.com/jquery-3.5.0.js")
+    * this is an external library in the project - and is linked in the html("https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
 
 ## Contributing
 ME :) Yes me :)
