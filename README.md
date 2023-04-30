@@ -12,6 +12,12 @@ The digital clock shows time in hh:mm:ss day date month year
 When clicked on it turnes into an analoge clock that shows the time 
 -and also has day date/month/year
 
+From this:
+![Clock2](clock2.jpg)
+
+To this:
+![Clock2](clock2.jpg)
+
 ## External libraries or plugins
 
 * Icon linked in the html file **plugins**

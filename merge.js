@@ -94,10 +94,3 @@ function clock_1() {
 }
 
 setInterval("clock_1()", 100);
-
-
-
-/* switches between the clocks */
-$("section").click(function () {
-    $("section").toggle();
-});
