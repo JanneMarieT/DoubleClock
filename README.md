@@ -16,7 +16,7 @@ From this:
 ![Clock2](clock2.jpg)
 
 To this:
-![Clock2](clock2.jpg)
+![Clock1](clock1.jpg)
 
 ## External libraries or plugins
 
